@@ -7,9 +7,9 @@ body {
 #barranavegacio ul {
     display: flex;
     align-items: center;
-    background: green;
+    background-color: red;
     list-style: none;
-    height: 50px;
+    height: 80px;
     width:auto;
     margin: 0px;
     justify-content: center;
@@ -26,5 +26,5 @@ body {
     font-size: large;
 }
 #barranavegacio a:hover {
-    color: yellow;
+    color: black;
 }
