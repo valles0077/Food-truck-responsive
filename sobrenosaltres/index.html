@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superpizza</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://copilot.microsoft.com/th/id/BCO.fa2ddb9a-6e5b-451e-9c5d-632b9a961509.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="barranavegacio">
+            <div class="logo">
+                <img width=50px src="https://copilot.microsoft.com/th/id/BCO.fa2ddb9a-6e5b-451e-9c5d-632b9a961509.png">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="/sobrenosaltres/index.html">Sobre nosaltres</a></li>
+                <li><a href="/plats/index.html">Plats</a></li>
+                <li><a href="/contacte/index.html">Contacte</a></li>
+            </ul>
+
+            <div class="hamburguesa">
+                ☰
+            </div>
+        </nav>
+    </header>
+
+    <div class="encapçalament">
+        <h2 class="titol">Sobre nosaltres</h2>
+        <p>A SuperPizza creiem que una bona pizza no és només menjar, sinó una experiència 
+            que reuneix les persones al voltant de la taula. La nostra història va començar amb una idea 
+            senzilla: portar l'autèntic sabor italià a cada racó de la ciutat, combinant tradició, 
+            ingredients frescos i un toc modern que ens fa únics.
+        </p>
+
+        <img class="imatge" src="https://media.istockphoto.com/id/1442417585/es/foto/persona-recibiendo-un-pedazo-de-pizza-de-pepperoni-con-queso.jpg?s=612x612&w=0&k=20&c=Uk4fj96OIDxE4v2S5sRRXRY_gZ899_TE6jGD-T-TysI=" alt="">
+
+        <p>Des dels nostres inicis, hem treballat amb passió 
+            per seleccionar els millors productes: farines de qualitat, tomàquets madurs i formatges que es 
+            fonen a cada mos. 
+            Cada pizza que surt del nostre forn està pensada per transmetre afecte, 
+            dedicació i aquest sabor casolà que tant ens caracteritza.
+        </p>
+
+        <p>El que ens diferencia és la nostra manera d'entendre la cuina: no busquem només 
+            alimentar, sinó sorprendre. Per això, a més de les clàssiques receptes com la Pizza 4 Formatges o 
+            la Pernil i Formatge, 
+            ens encanta innovar amb combinacions originals que desperten la curiositat i conquisten el paladar.
+        </p>
+
+        <img class="imatge" src="https://claxonmajadahonda.com/wp-content/uploads/2025/01/istockphoto-2191723188-612x612-1.jpg" alt="">
+
+        <p>El nostre equip està format per amants de la pizza que gaudeixen creant i compartint. 
+            Cada membre aporta la seva energia i creativitat perquè cada client visqui una experiència completa: 
+            des de l'aroma irresistible en obrir la caixa, fins al somriure en donar la primera mossegada.
+        </p>
+
+        <p>A SuperPizza també creiem a la comunitat. Ens agrada ser presents a fires, esdeveniments i 
+            festes locals, perquè sabem que la pizza és sinònim de celebració. Volem ser 
+            part dels teus moments especials, acompanyar-te a cada trobada amb amics, família o companys de feina.
+        </p>
+        
+        <img class="imatge" src="https://media.istockphoto.com/id/1388105989/es/foto/pizza-italiana-casera-carbonara-con-hojas-de-jam%C3%B3n-y-albahaca-sobre-un-fondo-oscuro-vista.jpg?s=612x612&w=0&k=20&c=W9HassoaH1kroV5RjsI6Y70QONb1qECCUeCS7NdPUuw=" alt="">
+
+        <p>Més que un negoci, som un projecte amb ànima. La nostra missió és senzilla: 
+            que cada persona que provi les nostres pizzes senti que ha trobat el 
+            seu lloc, un espai on la qualitat i el sabor s'uneixen amb la proximitat i alegria.
+        </p>
+    </div>
+
+    <footer class="footer">
+    <div class="footertitol">
+        <h3>Super Pizza</h3>
+    </div>
+
+    <div class="xarxessocials">
+        <a href="https://www.facebook.com/?locale=es_ES"><img src="https://img.icons8.com/color/1200/facebook.jpg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/"><img src="https://static.vecteezy.com/system/resources/previews/042/148/632/non_2x/instagram-logo-instagram-social-media-icon-free-png.png" alt="Instagram"></a>
+        <a href="https://x.com/?lang=es"><img src="https://images.freeimages.com/image/large-previews/8ea/x-twitter-white-logo-on-black-5694249.png" alt="Twitter"></a>
+    </div>
+
+    <div class="linksutils">
+        <a href="index.html">Inici</a>
+        <a href="/sobrenosaltres/index.html">Sobre nosaltres</a>
+        <a href="/plats/index.html">Plats</a>
+        <a href="/contacte/index.html">Contacte</a>
+    </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector(".hamburguesa");
+        const navLinks = document.querySelector(".barranavegacio ul");
+
+        hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        });
+    </script>
+
+</body>
+</html>
