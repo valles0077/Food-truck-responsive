@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superpizza</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://copilot.microsoft.com/th/id/BCO.fa2ddb9a-6e5b-451e-9c5d-632b9a961509.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="barranavegacio">
+            <div class="logo">
+                <img width=50px src="https://copilot.microsoft.com/th/id/BCO.fa2ddb9a-6e5b-451e-9c5d-632b9a961509.png">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="/sobrenosaltres/index.html">Sobre nosaltres</a></li>
+                <li><a href="/plats/index.html">Plats</a></li>
+                <li><a href="/contacte/index.html">Contacte</a></li>
+            </ul>
+
+            <div class="hamburguesa">
+                ☰
+            </div>
+        </nav>
+    </header>
+
+    <div class="encapçalament">
+        <h2 class="titol">Contacte</h2>
+    </div>
+
+
+    <div class="formulari">
+        <h2>Contacta'ns</h2>
+        <form>
+            <input type="text" placeholder="Nom i cognoms" required>
+            <input type="email" placeholder="Correu electrònic" required>
+            <textarea placeholder="Missatge:" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+    <div class="footertitol">
+        <h3>Super Pizza</h3>
+    </div>
+
+    <div class="xarxessocials">
+        <a href="https://www.facebook.com/?locale=es_ES"><img src="https://img.icons8.com/color/1200/facebook.jpg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/"><img src="https://static.vecteezy.com/system/resources/previews/042/148/632/non_2x/instagram-logo-instagram-social-media-icon-free-png.png" alt="Instagram"></a>
+        <a href="https://x.com/?lang=es"><img src="https://images.freeimages.com/image/large-previews/8ea/x-twitter-white-logo-on-black-5694249.png" alt="Twitter"></a>
+    </div>
+
+    <div class="linksutils">
+        <a href="index.html">Inici</a>
+        <a href="/sobrenosaltres/index.html">Sobre nosaltres</a>
+        <a href="/plats/index.html">Plats</a>
+        <a href="/contacte/index.html">Contacte</a>
+    </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector(".hamburguesa");
+        const navLinks = document.querySelector(".barranavegacio ul");
+
+        hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        });
+    </script>
+
+</body>
+</html>
