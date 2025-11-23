@@ -19,6 +19,10 @@
                 <li><a href="">Plats</a></li>
                 <li><a href="">Contacte</a></li>
             </ul>
+
+            <div class="hamburguesa">
+                ☰
+            </div>
         </nav>
     </header>
 
@@ -69,6 +73,15 @@
         <a href="#">Contacte</a>
     </div>
     </footer>
+
+    <script>
+        const hamburger = document.querySelector(".hamburguesa");
+        const navLinks = document.querySelector(".barranavegacio ul");
+
+        hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        });
+    </script>
 
 </body>
 </html>
