@@ -1,6 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    background-image: url('https://offloadmedia.feverup.com/barcelonasecreta.com/wp-content/uploads/2023/03/08084842/shutterstock_1829205563-1-1024x683.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    position: relative;
+    min-height: 100vh; 
 }
 
 .barranavegacio {
